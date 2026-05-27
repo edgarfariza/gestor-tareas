@@ -4,7 +4,7 @@ Un gestor de tareas sencillo en consola programado en **Java** conectado a una b
 
 ## Requisitos
 
-- Java 11+
+- Java 21+
 - MySQL 8.0
 
 ## Tecnologias utilizadas
