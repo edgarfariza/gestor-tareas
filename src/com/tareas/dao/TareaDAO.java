@@ -66,6 +66,8 @@ public class TareaDAO {
                     );
                     tarea.setId(rs.getInt("id"));
                     tarea.setCompletada(rs.getBoolean("completada"));
+                if (rs.getDate("fecha_creacion") != null) {
+                    tarea.setFechaCreacion(rs.getDate("fecha_creacion").toLocalDate());
                     return tarea;
                 }
             }
