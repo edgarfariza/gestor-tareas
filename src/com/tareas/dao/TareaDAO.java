@@ -31,8 +31,8 @@ public class TareaDAO {
         String sql = "SELECT * FROM tareas";
 
         try (Connection conn = ConexionBD.conectar();
-             Statement stmt = conn.createStatement();
-             ResultSet rs = stmt.executeQuery(sql)) {
+     PreparedStatement pstmt = conn.prepareStatement(sql);
+     ResultSet rs = pstmt.executeQuery()) {
 
             while (rs.next()) {
                 Tarea tarea = new Tarea(
@@ -45,7 +45,7 @@ public class TareaDAO {
                 tareas.add(tarea);
             }
         } catch (SQLException e) {
-            System.out.println("Error al obtener: " + e.getMessage());
+            System.out.println("Error al listar tareas: " + e.getMessage());
         }
         return tareas;
     }
