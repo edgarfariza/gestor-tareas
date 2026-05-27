@@ -28,14 +28,6 @@ cd gestor-tareas
 ```sql
 CREATE DATABASE gestor_tareas;
 ```
-
-3. Ejecutar aplicación
-```bash
-javac -d bin src/com/edgar/tareas/**/*.java
-java -cp bin:lib/mysql-connector-java-8.0.jar com.edgar.tareas.Main
-```
-
-
 ---
 
 ## Características
