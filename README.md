@@ -9,7 +9,7 @@ Un gestor de tareas sencillo en consola programado en **Java** conectado a una b
 
 ## Tecnologias utilizadas
 
--Intellij Idea
+- Intellij Idea
 - JDBC MySQL Connector
 - Java 21
 - MySQL 8.0
