@@ -21,5 +21,30 @@
             <version>9.7.0</version>
         </dependency>
     </dependencies>
+         <project ...>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.edgar</groupId>
+    <artifactId>gestor-tareas</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        ...
+    </properties>
+
+    <dependencies>
+        ...
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <mainClass>com.edgar.tareas.Main</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
