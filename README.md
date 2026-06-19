@@ -6,7 +6,7 @@ El objetivo principal del proyecto no es la funcionalidad en sí (un CRUD), sino
 
 ## Capturas
 
-> *(Pendiente: añadir una captura o GIF del menú de consola en funcionamiento)*
+![Consola en funcionamiento](img/demo-1.png)
 
 ## Tecnologías
 
