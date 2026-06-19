@@ -6,7 +6,7 @@ El objetivo principal del proyecto no es la funcionalidad en sí (un CRUD), sino
 
 ## Capturas
 
-![Demo del menú de consola](img/demo.png)
+![Demo del menú de consola](img/demo-1.png)
 
 ## Tecnologías
 
